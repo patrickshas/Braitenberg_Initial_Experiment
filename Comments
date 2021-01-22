@@ -1,0 +1,154 @@
+----------------------------------------------
+REVIEW NO. 1
+
+Originality:              Weak Reject
+Significance of topic:    Neutral
+Technical quality:        Strong Reject
+Relevance to SSCI 2020:   Neutral
+Presentation:             Reject
+Overall rating:           Strong Reject
+
+Reviewer's expertise on the topic: High
+Suggested form of presentation:    Any
+Best Paper Award nomination:       No
+
+Comments to the authors:
+    This paper seeks to investigate elements of Darwinian evolutionary theory as
+    it pertains to Braitenberg vehicles. This is done by recreating Valentino
+    Braitenberg's thought experiment ("Selection, the Impersonal Engineering")
+    whereby a population of roaming vehicles with varying sensory-motor
+    connections travel across a table reacting to other vehicles and other
+    sensory stimuli. The authors adapted a previously implemented simulation to
+    account for the added evolutionary mechanisms. Natural Selection is thereby
+    naturally present within the simulation such that 'stronger' individuals are
+    those who do not fall off the table and thus are viable candidates for the
+    'reproductive process' (a random copy of one of the vehicles on the table
+    with mutated sensory values). Through experimentation with a variable number
+    of light sources and table sizes, the authors found that: (1) The results of
+    their experiments were heavily reliant on the environment settings (table
+    size, the number of light sources and the location of said lights) and (2)
+    the results of the experiment are also dependant on the genetic makeup of
+    the vehicles. Specifically, light averse vehicles always performed poorly
+    while some light attracted vehicles persisted for several generations. The
+    paper, by the authors' own admission is exploratory and several future
+    extensions are proposed.
+   
+    Overall, the paper feels incomplete. This is prominently evident in two
+    regards. First, the technical quality of the paper is severely lacking. The
+    authors describe taking a qualitative approach to analysis. Although strange
+    for an experiment where there is a plethora of interesting numerical data
+    points that could be investigated, qualitative analysis alone is not
+    entirely problematic. However, this has not stopped the authors from saying
+    their observed results are statistically significant while failing to
+    mention if and how they determined this. Furthermore, the conditions under
+    which the experiments were run are also questionable. The initial conditions
+    of each simulation run are deterministic, that is to say the authors hand-
+    picked the initial values of each of the vehicles and their starting
+    positions. Hand picking initial vehicle properties is not problematic, in
+    fact, it is actually an interesting perspective given that the authors
+    specifically chose vehicles with varying behaviours (the four Braintenberg
+    behaviours and the hybrids that have unique behavioural traits) however, it
+    is a bit disingenuous to make overarching comments about general vehicle
+    behaviour when the initial locations of these vehicles does not change.
+    There is no understanding of how the vehicles behave in general. Random
+    initialization of vehicle position seems like a more appropriate approach to
+    understanding vehicle behaviour in general.
+   
+    The second issue pertains to the general scope of the paper. Evolving robots
+    to achieve specific tasks (in this case survival) is not new and it is
+    certainly not new for Braitenberg vehicles either with the authors noting
+    that their work has much in common with a lot of Ralf Salomon's work. It is
+    on this note that the exploratory nature and small scope of their paper
+    seems unwarranted. There is already evidence that evolutionary techniques
+    can be used to evolve Braitenberg vehicles. Furthermore, only the sensor
+    parameters evolve. This is a bit disappointing given that Ralf Salomon's
+    work did the same thing. This paper may have benefited from implementing
+    some of its future work prospects or evolving the connection types as well
+    as introducing additional sensors.
+   
+    There are some further criticisms I have with the paper. Figure 8. should
+    match the colour of the line graph to the colour of the vehicle. It is
+    strange to see that the blue vehicle, represented by an orange line, is the
+    dominant species for that given simulation run. 'specie's' should be changed
+    to 'species' in Section C. Dependent variables. The source code for the
+    original model is present but the reworked code is noticeably absent.
+   
+    Additionally, the authors mention altering the GUI of the original work
+    which they reference as Figure 2. The authors also state that "Initially a
+    batch of experiments were conducted but due to the issues with the source
+    code, a new set of experimental runs were needed. Also, the graphics had to
+    be disabled for smooth running of the simulations. This however did not
+    affect any of the logical components involved regarding vehicle's
+    interactions with the environment". It is unclear what 'graphics' entails
+    but if it means the entire user interface, I do not see how they would have
+    been able to perform "qualitative analysis" through "observation". Figures
+    4-7 also show a completely different rendered scene to the reworked GUI in
+    Figure 2. The reasons for this are not entirely clear.
+   
+    Given what has been discussed above, I cannot recommend that this paper be
+    accepted to SSCI-2020.
+
+----------------------------------------------
+REVIEW NO. 2
+
+Originality:              Reject
+Significance of topic:    Weak Reject
+Technical quality:        Weak Reject
+Relevance to SSCI 2020:   Weak Reject
+Presentation:             Weak Reject
+Overall rating:           Reject
+
+Reviewer's expertise on the topic: Medium
+Suggested form of presentation:    Poster
+Best Paper Award nomination:       No
+
+Comments to the authors:
+    This paper reports on a development of an evolutionary simulation environment in
+    which Braitenberg's vehicles can evolve in a two-dimensional space. However, I
+    do not find any significance of the proposed model because there are many
+    existing frameworks that allow us to conduct similar experiments. In addition,
+    the purpose of conducting experiments with this framework is not clearly shown,
+    and thus it is also not clear whether and how the preliminary results are of
+    importance.
+
+----------------------------------------------
+REVIEW NO. 3
+
+Originality:              Neutral
+Significance of topic:    Weak Accept
+Technical quality:        Weak Reject
+Relevance to SSCI 2020:   Accept
+Presentation:             Weak Reject
+Overall rating:           Neutral
+
+Reviewer's expertise on the topic: Medium
+Suggested form of presentation:    Any
+Best Paper Award nomination:       No
+
+Comments to the authors:
+    This paper investigates one of Braitenberg's experiments, namely experiment 6.
+   
+    While the overall idea and investigation is of interest for the community, the
+    paper has some major problems:
+    - the research questions, the description of setup, the presentation of results,
+    the analysis, are particularly verbose and repetitive. This type of language is
+    more suitable for a student project report or master thesis, rather than for a
+    scientific paper. Please rewrite the paper in a format more suitable for a
+    scientific conference.
+    - the experimental results are described qualitatively but there is no rigorous
+    analysis nor numerical results are given. Some screenshots of the experiments are
+    presented where the position of the robots is barely visible. Such images are of
+    very little usage. The authors should provide numerical results and analysis, and
+    provide links to videos of some example runs
+    - in addition, the evolutionary results are provided for a single execution of one
+    of the experiments (figure 8).
+    - the work is very preliminary, and therefore the results at this stage have very
+    limited scope. Since the experimental setup is also rather simple, the overall
+    contribution of this work is rather limited/incomplete.
+    - the topic is interesting and relevant for the community, so I encourage the
+    authors to improve the quality of the paper and include more complete experiments
+    and rigorous analysis before resubmission (in this conference if time allows,
+    otherwise elsewhere).
+   
+    I suggest to reject this paper unless the authors include major improvements to
+    increase the quality of the work.
