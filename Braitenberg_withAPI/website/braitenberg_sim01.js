@@ -5,16 +5,16 @@
 
 braitenbergInfo = {
   vehicles: [
-        { x: 200, y: 200, color: "red", angle: 0, baseValues: { left: 1, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 1 }, { position: Math.PI / 4, type: "left", strength: 1 }] },
-        { x: 20, y: 60, color: "blue", angle: 0, baseValues: { left: 5, right: 5, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "left", strength: -0.4 }, { position: Math.PI / 4, type: "right", strength: -0.4 }] },
-        { x: 20, y: 280, color: "green", angle: 0, baseValues: { left: 1, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "left", strength: 3 }, { position: Math.PI / 4, type: "right", strength: 3 }] },
-        { x: 100, y: 250, color: "white", angle: 0, baseValues: { left: 4, right: 4, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.2 }, { position: Math.PI / 4, type: "left", strength: -0.2 }] },
-        { x: 330, y: 280, color: "pink", angle: 0, baseValues: { left: 3, right: 3, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.4 }, { position: Math.PI / 4, type: "left", strength: -0.4 }] },
-        { x: 250, y: 300, color: "yellow", angle: 0, baseValues: { left: 3, right: 3, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.9 }, { position: Math.PI / 4, type: "left", strength: 0.9 }] },
-        { x: 370, y: 320, color: "cyan", angle: 0, baseValues: { left: 1, right: 2, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 1 }, { position: Math.PI / 4, type: "left", strength: 3 }] },
-        { x: 180, y: 100, color: "magenta", angle: 0, baseValues: { left: 1, right: 4, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 2 }, { position: Math.PI / 4, type: "left", strength: 2 }] },
-        { x: 150, y: 150, color: "aquamarine", angle: 0, baseValues: { left: 1.2, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 0.5 }, { position: Math.PI / 4, type: "left", strength: 0.5 }] },
-        { x: 50, y: 250, color: "brown", angle: 0, baseValues: { left: 2, right: 2, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 0.2 }, { position: Math.PI / 4, type: "left", strength: 0.2 }] }],
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "red", angle: 0, baseValues: { left: 1, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 1 }, { position: Math.PI / 4, type: "left", strength: 1 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "blue", angle: 0, baseValues: { left: 5, right: 5, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "left", strength: -0.4 }, { position: Math.PI / 4, type: "right", strength: -0.4 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "green", angle: 0, baseValues: { left: 1, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "left", strength: 3 }, { position: Math.PI / 4, type: "right", strength: 3 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "white", angle: 0, baseValues: { left: 4, right: 4, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.2 }, { position: Math.PI / 4, type: "left", strength: -0.2 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "pink", angle: 0, baseValues: { left: 3, right: 3, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.4 }, { position: Math.PI / 4, type: "left", strength: -0.4 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "yellow", angle: 0, baseValues: { left: 3, right: 3, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: -0.9 }, { position: Math.PI / 4, type: "left", strength: 0.9 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "cyan", angle: 0, baseValues: { left: 1, right: 2, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 1 }, { position: Math.PI / 4, type: "left", strength: 3 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "magenta", angle: 0, baseValues: { left: 1, right: 4, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 2 }, { position: Math.PI / 4, type: "left", strength: 2 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "aquamarine", angle: 0, baseValues: { left: 1.2, right: 1, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 0.5 }, { position: Math.PI / 4, type: "left", strength: 0.5 }] },
+        { x: Math.floor(Math.random() * 440) + 30, y: Math.floor(Math.random() * 340) + 30, color: "brown", angle: 0, baseValues: { left: 2, right: 2, bulb: 0 }, sensors: [{ position: -Math.PI / 4, type: "right", strength: 0.2 }, { position: Math.PI / 4, type: "left", strength: 0.2 }] }],
 
 
     bulbs: [{ x: 0, y: 0 }, { x: 200, y: 200 }, { x: 450, y: 350 }, { x: 50, y: 350 }, { x: 50, y: 50 }, { x: 500, y: 400 }]
@@ -39,6 +39,7 @@ simulationInfo = {
 vehicles = new Array();
 bulbs = new Array();
 sensors = new Array();
+counterz = 0;
 
 function init() {
   var n;
@@ -331,6 +332,7 @@ function plotVehicle(ctx, xTopLeft = this.x, yTopLeft = this.y) {
 }
 
 function step() {
+    counterz++;
   var i;
   for (i = 0; i < vehicles.length; ++i) {
     vehicles[i].stepsLived++;
@@ -360,7 +362,7 @@ function step() {
     }
     //console.log(holder);
 
-    
+      holder[11] = counterz;
 
     if (dead){
     const options = {
