@@ -1,3 +1,6 @@
 # Braitenberg_Exper
 
+Important: This repository is not opensource yet. Please do not use the code available here in any form as of yet. This directory will be made open-source upon acceptance.
+
+
 Welcome to the supplementary information page for the paper "Valentino Braitenberg’s Table: Downhill Innovation of Vehicles via Darwinian Evolution" submitted to the ALife 2021 conference. This page will provide all the additional and supplementary graphs, experimental methods etc. that provide a better understanding of the experiments we conducted.
