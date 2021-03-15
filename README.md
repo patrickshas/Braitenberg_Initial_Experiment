@@ -1,9 +1,3 @@
 # Braitenberg_Exper
 
-two directories:
-  1. "noAPI" is just the HTML page
-  2. "withAPI" has the API components and is used for data gathering
-
-procedures for setting up the API:
-  1. we have used Node.js
-  2. 
+Welcome to the supplementary information page for the paper "Valentino Braitenberg’s Table: Downhill Innovation of Vehicles via Darwinian Evolution" submitted to the ALife 2021 conference. This page will provide all the additional and supplementary graphs, experimental methods etc. that provide a better understanding of the experiments we conducted.
